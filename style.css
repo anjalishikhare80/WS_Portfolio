@@ -1,0 +1,280 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: #0c0c0d;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+.navbar {
+    background-color: white;
+    padding: 15px 30px;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: right;
+}
+
+.logo {
+    float: left;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #6554d9;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.navigation {
+    display: inline-block;
+}
+
+.navigation a {
+    display: inline-block;
+    color: #22223b;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.home {
+    background-color: #f7f6ff;
+    padding: 70px 30px;
+}
+
+.home-content {
+    display: inline-block;
+    width: 58%;
+    vertical-align: middle;
+}
+
+.welcome {
+    color: #6554d9;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.home h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.home h1 span {
+    color: #6554d9;
+}
+
+.home h2 {
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.description {
+    max-width: 500px;
+    color: #626278;
+    margin-bottom: 25px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #6554d9;
+    color: white;
+    text-decoration: none;
+    padding: 11px 22px;
+    margin: 5px;
+    border: 2px solid #6554d9;
+    border-radius: 5px;
+}
+
+.button-outline {
+    background-color: transparent;
+    color: #6554d9;
+}
+
+.tagline {
+    margin-top: 25px;
+}
+
+.home-image {
+    display: inline-block;
+    width: 35%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.home-image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid #6554d9;
+    object-fit: cover;
+}
+
+
+.section {
+    text-align: center;
+    padding: 60px 25px;
+}
+
+.small-heading {
+    color: #6554d9;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.heading {
+    font-size: 32px;
+    margin: 8px 0 25px;
+}
+
+
+.about {
+    background-color: white;
+}
+
+.about-text {
+    max-width: 750px;
+    margin: 12px auto;
+    color: #626278;
+}
+
+.skills {
+    background-color: #ffffff;
+}
+
+.skill-card {
+    display: inline-block;
+    width: 200px;
+    background-color: #f7f6ff;
+    border: 1px solid #e0dcfa;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.skill-card h3 {
+    color: #6554d9;
+    margin-bottom: 15px;
+}
+
+.skill-card p {
+    color: #626278;
+    margin: 10px 0;
+}
+
+
+.projects {
+    background-color: #ffffff;
+}
+
+.project-card {
+    display: inline-block;
+    width: 290px;
+    min-height: 255px;
+    vertical-align: top;
+    text-align: left;
+    background-color: white;
+    border: 1px solid #e4e0fa;
+    border-radius: 8px;
+    padding: 22px;
+    margin: 10px;
+}
+
+.project-card h3 {
+    color: #6554d9;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.project-card p {
+    color: #626278;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.project-card .technology {
+    color: #6554d9;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.project-card a {
+    color: #6554d9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.education {
+    background-color: #ffffff;
+}
+
+.education-card {
+    display: inline-block;
+    width: 280px;
+    min-height: 190px;
+    background-color: #f7f6ff;
+    border: 1px solid #e0dcfa;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.education-card h3 {
+    color: #6554d9;
+    margin-bottom: 12px;
+}
+
+.education-card p {
+    color: #626278;
+    margin: 8px 0;
+}
+
+
+.contact {
+    background-color: white;
+}
+
+.contact-text {
+    color: #626278;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    margin-bottom: 12px;
+    overflow-wrap: anywhere;
+}
+
+.contact a:not(.button) {
+    color: #6554d9;
+    text-decoration: none;
+}
+
+
+.footer {
+    background-color: #22223b;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+.footer p {
+    margin-bottom: 8px;
+}
+
+.footer a {
+    color: #c9c2ff;
+    text-decoration: none;
+}
